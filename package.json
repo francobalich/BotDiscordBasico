@@ -1,0 +1,35 @@
+{
+  "name": "botdiscordbasico",
+  "version": "1.0.0",
+  "description": "General Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "npx standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francobalich/BotDiscordBasico.git"
+  },
+  "keywords": ["bot","dicord","node","general bot"],
+  "author": "Franco Adrian Balich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francobalich/BotDiscordBasico/issues"
+  },
+  "homepage": "https://github.com/francobalich/BotDiscordBasico#readme",
+  "dependencies": {
+    "discord.js": "14.3.0",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
